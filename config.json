@@ -1,0 +1,106 @@
+{
+  "ContractsController": {
+    "Address": "addr_test1xrmgrd5yxc8was45fnthymq9nu0c7tcv6pf5gx9htjj70fqmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqjhcrzr",
+    "RefTxID": "65fbf10be969944d5aa0a2b999c9a7a5f118b724e6467965532af7a2ee4e2fce",
+    "RefTxIDIndex": 0
+  },
+  "Staking": {
+    "Address": "stake_test17qd5querl8wx8ktwml8cgwsmps3tdpugupg9phaf0xvrmeq4frdyx",
+    "RefTxID": "c39e67a848c4cc8c85e3f3fdd631553d7829e494e82fbe6de39888e5649c55b3",
+    "RefTxIDIndex": 0
+  },
+  "MainTreasury": {
+    "Address": "addr_test1xpp0utyxc8a5yfmeyvhv3qexzeqp0cpx3wnkt5jq5ysxqhcmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqr4pppk",
+    "RefTxID": "8fa93548bc74f6da42235562c93d6bc6b5a6eab9a6f4e4895491697cc91b0b18",
+    "RefTxIDIndex": 0
+  },
+  "WalletsMnemonic": {
+    "DNSMintingAdmin": "next drama dignity joy honey vault knife alarm famous tray bean avoid sphere height example",
+    "MintingDNSAuctionAdmin": "flock require cancel stool belt love entry spend slot habit armor night section baby machine",
+    "DNSReferenceAdmin": "unaware ugly enrich merge fragile change click add fashion improve alone genre bar unable average"
+  },
+  ".ada": {
+    "DNSMinter": {
+      "PolicyID": "74911e0ec60b0297f5a07d26f9e68d520355a7e71909577d44d459eb",
+      "RefTxID": "b70b11cf73b9ec4d0c763f695d9a903d3ce70b52a104dec513996ea66cb7573b",
+      "RefTxIDIndex": 0
+    },
+    "MintingDNSAuction": {
+      "Address": "addr_test1xqrhu7u0j6qtxfst0ewv7ghgulnsrdumr9d9mlzv4f2v66cmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqmes69h",
+      "RefTxID": "8e4abc2eb00ff128b19fa1e3095742d527e70c1a7691989c4a85391b5bb7e93f",
+      "RefTxIDIndex": 0
+    },
+    "MHABAT": {
+      "PolicyID": "8f5c4b61c725deb81a5e22ff1313df0b8341baa3c18f7f2ebefd84c6",
+      "RefTxID": "2e9bc95bdbdcd2bed4fbe86c0a7651ae2b7f8024984a5fe8917cea4c7dc30782",
+      "RefTxIDIndex": 0
+    },
+    "DNSReference": {
+      "Address": "addr_test1xqtcl24vsz2pzfmu3fwvcc4crxefmdly76wcz4qkkssfe2gmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjq60022g",
+      "RefTxID": "95829e918548f74a66e8c0f92aa2e8d47ac47b88d65d81a94ce1809881ce4ccf",
+      "RefTxIDIndex": 0
+    },
+    "DRAT": {
+      "PolicyID": "248503890f17ce512a2a07926841854a337bde567cfdf64500e64ab0",
+      "RefTxID": "444ad3b8cb4e50b00672e6114ca299d1fa7ff0350cee9d1ab87910521782c00b",
+      "RefTxIDIndex": 0
+    },
+    "VickreyAuction": {
+      "Address": "addr_test1xq7nrpkhvrxntp5r0v9n3src37n7jc5ck3d6sf0tnzcu54smgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqywvsd2",
+      "RefTxID": "7a088f5a3913594b2c9819774a7ca3c498791cc9b0697bf441b0a5ea9bf620b1",
+      "RefTxIDIndex": 0
+    },
+    "VABAT": {
+      "PolicyID": "8db14e71436e8ef5820653d49cb8e1d88947a566fbb003399976d355",
+      "RefTxID": "c56d30659ae05b909e3aa14206b911c39b5ebcee3230aa0f2ed83613c18ae9fe",
+      "RefTxIDIndex": 0
+    },
+    "EnglishAuction": {
+      "Address": "addr_test1xpnhjkcc6f0vwzunq9kuayer95xtsh2yf5zx7l2j3pgcymgmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjq7q3ngu",
+      "RefTxID": "28e2cad1fb989dc1da48b9f418c0836a7b5299f08a000fb22ad2b0a34685aa2e",
+      "RefTxIDIndex": 0
+    }
+  },
+  ".cardano": {
+    "DNSMinter": {
+      "PolicyID": "a548ab83213834fbf484d0107866ed365a9d4987070c9e693964afd7",
+      "RefTxID": "33fafc2a3fd9fce454c72fae924eb75f8a610fe8f9141b5cf90ff0882b291807",
+      "RefTxIDIndex": 0
+    },
+    "MintingDNSAuction": {
+      "Address": "addr_test1xruf0tatnz0z7ypftyny2zh0vu650mke6dv9q95kjjeal4cmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjq9f5cpz",
+      "RefTxID": "cd6808946c93fe6ffd8577866ff2ead3541174ad1f76651f2db2fa046f88457c",
+      "RefTxIDIndex": 0
+    },
+    "MHABAT": {
+      "PolicyID": "5b5744991f78a6becf1fc1e7d38a73e973b331177834e676195ca1ce",
+      "RefTxID": "4104c6666b068a7762c1149fa82b2941d12ecb43c5901dc2841b90d08410012c",
+      "RefTxIDIndex": 0
+    },
+    "DNSReference": {
+      "Address": "addr_test1xrw7a27n3dt6h20wmtsmmd5n3uxf0dv2wuaz45xz6vdgx7cmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqeyul9u",
+      "RefTxID": "083cdf60b7201123460e7d8b292b422239ff7bc213f0d4e0e8f3dcaa723180cf",
+      "RefTxIDIndex": 0
+    },
+    "DRAT": {
+      "PolicyID": "59111f270f8621b97f056dc054dbcc0d82525c933ec5a40a21160f76",
+      "RefTxID": "6bfa725b957c490c4d6b8f5907d2326817551ec310a73a27c1e1a5ee301be4be",
+      "RefTxIDIndex": 0
+    },
+    "VickreyAuction": {
+      "Address": "addr_test1xru7ycfkakweycfsnzkugnxuj824tvjf7elft64xvzq5vrgmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjqlq3n79",
+      "RefTxID": "c4aeec3a424d532ad4643870da7ece35d0a4d36edb0f1124915f08261381a03a",
+      "RefTxIDIndex": 0
+    },
+    "VABAT": {
+      "PolicyID": "ceeccf53192bcef357645a66fb63d3c3d6ab68ca5f14ca36edf3523b",
+      "RefTxID": "ce543ffc307edc41f9ee4e99bd44f122cd73b200a8b80474833a8fdd3cde7735",
+      "RefTxIDIndex": 0
+    },
+    "EnglishAuction": {
+      "Address": "addr_test1xpl6n4fkzhv2906895f0updakklmkkh70qjrd9uvgrlm7lgmgpej87wuv0vkah70ssapkrpzk6rc3czs2r06j7vc8hjq7yezf7",
+      "RefTxID": "14e85924401f3e034ce3356f8b7d49407b0f5c6587ee339499049c9cf6d0404f",
+      "RefTxIDIndex": 0
+    }
+  }
+}

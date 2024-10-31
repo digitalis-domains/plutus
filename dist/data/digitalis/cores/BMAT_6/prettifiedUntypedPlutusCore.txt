@@ -1,0 +1,656 @@
+(program
+   1.1.0
+   ((\ ->
+       (\ ->
+          (\ ->
+             (\ ->
+                (\ ->
+                   (\ ->
+                      (\ ->
+                         (\ ->
+                            (\ ->
+                               (\ ->
+                                  (\   ->
+                                     (\ ->
+                                        (\ ->
+                                           force
+                                             (case
+                                                ((\ ->
+                                                    (\ ->
+                                                       (\ ->
+                                                          (\ ->
+                                                             (\ ->
+                                                                (\ ->
+                                                                   (\ ->
+                                                                      (\ ->
+                                                                         (\ ->
+                                                                            (\ ->
+                                                                               case
+
+                                                                                 [ (\
+
+                                                                                      ->
+                                                                                      (\ ->
+                                                                                         force
+                                                                                           (case
+                                                                                              (
+                                                                                                 )
+                                                                                              [ (delay
+                                                                                                   (force
+                                                                                                      (case
+                                                                                                         (
+                                                                                                            )
+                                                                                                         [ (delay
+                                                                                                              ((\ ->
+                                                                                                                  force
+                                                                                                                    (force
+                                                                                                                       ifThenElse
+                                                                                                                       (equalsInteger
+                                                                                                                          1
+                                                                                                                          (
+                                                                                                                             (
+                                                                                                                                (\
+                                                                                                                                   ->
+                                                                                                                                   force
+                                                                                                                                     (case
+
+                                                                                                                                        [ (delay
+                                                                                                                                             (constr 0
+                                                                                                                                                [  ]))
+                                                                                                                                        , (\
+                                                                                                                                             ->
+                                                                                                                                             delay
+                                                                                                                                               ((\ ->
+                                                                                                                                                   force
+                                                                                                                                                     (case
+                                                                                                                                                        (case
+
+                                                                                                                                                           [ (\
+
+                                                                                                                                                                ->
+                                                                                                                                                                force
+                                                                                                                                                                  (case
+                                                                                                                                                                     (
+
+                                                                                                                                                                        )
+                                                                                                                                                                     [ (delay
+                                                                                                                                                                          (force
+                                                                                                                                                                             (force
+                                                                                                                                                                                ifThenElse
+                                                                                                                                                                                (equalsInteger
+                                                                                                                                                                                   1
+                                                                                                                                                                                   )
+                                                                                                                                                                                (delay
+                                                                                                                                                                                   (
+
+                                                                                                                                                                                      #))
+                                                                                                                                                                                (delay
+                                                                                                                                                                                   (constr 1
+                                                                                                                                                                                      [  ])))))
+                                                                                                                                                                     , (delay
+                                                                                                                                                                          (constr 1
+                                                                                                                                                                             [  ])) ])) ])
+                                                                                                                                                        [ (delay
+                                                                                                                                                             (constr 1
+                                                                                                                                                                [ 
+                                                                                                                                                                ,  ]))
+                                                                                                                                                        , (delay
+                                                                                                                                                             ) ]))
+                                                                                                                                                  (
+                                                                                                                                                     ))) ]))
+                                                                                                                                )))
+                                                                                                                       (delay
+                                                                                                                          (force
+                                                                                                                             ifThenElse
+                                                                                                                             (equalsInteger
+                                                                                                                                1
+                                                                                                                                (
+                                                                                                                                   ))
+                                                                                                                             (constr 0
+                                                                                                                                [  ])
+                                                                                                                             (constr 1
+                                                                                                                                [  ])))
+                                                                                                                       (delay
+                                                                                                                          (constr 1
+                                                                                                                             [  ]))))
+                                                                                                                 (
+                                                                                                                    (constr 0
+                                                                                                                       [  ])
+                                                                                                                    )))
+                                                                                                         , (delay
+                                                                                                              (constr 1
+                                                                                                                 [  ])) ])))
+                                                                                              , (delay
+                                                                                                   (constr 1
+                                                                                                      [  ])) ]))
+                                                                                        (
+                                                                                           (\
+                                                                                              ->
+                                                                                              force
+                                                                                                (case
+
+                                                                                                   [ (delay
+                                                                                                        (constr 1
+                                                                                                           [  ]))
+                                                                                                   , (\
+                                                                                                        ->
+                                                                                                        delay
+                                                                                                          (force
+                                                                                                             (case
+
+                                                                                                                [ (\
+                                                                                                                     ->
+                                                                                                                     case
+
+                                                                                                                       [ (\
+                                                                                                                            ->
+                                                                                                                            case
+                                                                                                                              (force
+                                                                                                                                 (force
+                                                                                                                                    ifThenElse
+                                                                                                                                    (equalsByteString
+
+                                                                                                                                       )
+                                                                                                                                    (delay
+                                                                                                                                       (force
+                                                                                                                                          ifThenElse
+                                                                                                                                          (equalsInteger
+
+                                                                                                                                             )
+                                                                                                                                          (constr 0
+                                                                                                                                             [  ])
+                                                                                                                                          (constr 1
+                                                                                                                                             [  ])))
+                                                                                                                                    (delay
+                                                                                                                                       (constr 1
+                                                                                                                                          [  ]))))
+                                                                                                                              [ (delay
+                                                                                                                                   (constr 0
+                                                                                                                                      [  ]))
+                                                                                                                              , (delay
+                                                                                                                                   (
+                                                                                                                                      )) ]) ]) ]))) ])))) ])
+                                                                              (
+                                                                                 (\
+                                                                                    ->
+                                                                                    force
+                                                                                      (case
+
+                                                                                         [ (delay
+                                                                                              (constr 1
+                                                                                                 [  ]))
+                                                                                         , (\ ->
+                                                                                              (\
+                                                                                                 ->
+                                                                                                 delay
+                                                                                                   (force
+                                                                                                      (case
+                                                                                                         (
+                                                                                                            )
+                                                                                                         [ (delay
+                                                                                                              (constr 0
+                                                                                                                 [  ]))
+                                                                                                         , (delay
+                                                                                                              (
+                                                                                                                 )) ])))
+                                                                                                (
+                                                                                                   (\
+                                                                                                      ->
+                                                                                                      force
+                                                                                                        (case
+
+                                                                                                           [ (delay
+                                                                                                                (constr 1
+                                                                                                                   [  ]))
+                                                                                                           , (\
+                                                                                                                ->
+                                                                                                                delay
+                                                                                                                  (force
+                                                                                                                     (case
+                                                                                                                        (
+
+                                                                                                                           )
+                                                                                                                        [ (delay
+                                                                                                                             (constr 0
+                                                                                                                                [  ]))
+                                                                                                                        , (delay
+                                                                                                                             (
+                                                                                                                                )) ]))) ])))) ]))))
+                                                                           (
+                                                                              unBData
+                                                                              (force
+                                                                                 headList
+                                                                                 (force
+                                                                                    tailList
+                                                                                    (force
+                                                                                       tailList
+                                                                                       (force
+                                                                                          tailList
+                                                                                          (force
+                                                                                             tailList
+                                                                                             )))))))
+                                                                        (
+                                                                           unBData
+                                                                           (force
+                                                                              )
+                                                                           (force
+                                                                              headList
+                                                                              )))
+                                                                     (force
+                                                                        tailList
+                                                                        ))
+                                                                  (force
+                                                                     tailList
+                                                                     ))
+                                                               (force tailList
+                                                                  ))
+                                                            (force tailList ))
+                                                         (
+                                                            (\ ->
+                                                               (\ ->
+                                                                  (\ ->
+                                                                     (\ ->
+                                                                        force
+                                                                          (force
+                                                                             ifThenElse
+                                                                             (equalsInteger
+                                                                                0
+                                                                                )
+                                                                             (delay
+                                                                                (constr 0
+                                                                                   [ ((\ ->
+                                                                                         (\ ->
+                                                                                            (\ ->
+                                                                                               force
+                                                                                                 (force
+                                                                                                    ifThenElse
+                                                                                                    (equalsInteger
+                                                                                                       0
+                                                                                                       )
+                                                                                                    (delay
+                                                                                                       (constr 0
+                                                                                                          [ (unBData
+                                                                                                               (force
+                                                                                                                  headList
+                                                                                                                  ))
+                                                                                                          , (unIData
+                                                                                                               (force
+                                                                                                                  headList
+                                                                                                                  (force
+                                                                                                                     tailList
+                                                                                                                     ))) ]))
+                                                                                                    (delay
+                                                                                                       error)))
+                                                                                              (force
+                                                                                                 (force
+                                                                                                    sndPair)
+                                                                                                 ))
+                                                                                           (force
+                                                                                              (force
+                                                                                                 fstPair)
+                                                                                              ))
+                                                                                        (unConstrData
+                                                                                           (force
+                                                                                              headList
+                                                                                              )))
+                                                                                   , ((\ ->
+                                                                                         (\ ->
+                                                                                            (\ ->
+                                                                                               force
+                                                                                                 (force
+                                                                                                    ifThenElse
+                                                                                                    (equalsInteger
+                                                                                                       0
+                                                                                                       )
+                                                                                                    (delay
+                                                                                                       ((\ ->
+                                                                                                           (\ ->
+                                                                                                              constr 0
+                                                                                                                [ ((\ ->
+                                                                                                                      (\ ->
+                                                                                                                         (\ ->
+                                                                                                                            force
+                                                                                                                              (force
+                                                                                                                                 ifThenElse
+                                                                                                                                 (equalsInteger
+                                                                                                                                    0
+                                                                                                                                    )
+                                                                                                                                 (delay
+                                                                                                                                    (constr 0
+                                                                                                                                       [ (
+                                                                                                                                            (force
+                                                                                                                                               headList
+                                                                                                                                               ))
+                                                                                                                                       , (
+                                                                                                                                            (\ ->
+                                                                                                                                               (\ ->
+                                                                                                                                                  (\ ->
+                                                                                                                                                     (\ ->
+                                                                                                                                                        force
+                                                                                                                                                          (force
+                                                                                                                                                             ifThenElse
+                                                                                                                                                             (equalsInteger
+                                                                                                                                                                0
+                                                                                                                                                                )
+                                                                                                                                                             (delay
+                                                                                                                                                                (constr 0
+                                                                                                                                                                   [ (
+                                                                                                                                                                        (force
+                                                                                                                                                                           headList
+                                                                                                                                                                           )) ]))
+                                                                                                                                                             (delay
+                                                                                                                                                                (force
+                                                                                                                                                                   (force
+                                                                                                                                                                      ifThenElse
+                                                                                                                                                                      (equalsInteger
+                                                                                                                                                                         1
+                                                                                                                                                                         )
+                                                                                                                                                                      (delay
+                                                                                                                                                                         ((\ ->
+                                                                                                                                                                             constr 1
+                                                                                                                                                                               [ (unIData
+                                                                                                                                                                                    (force
+                                                                                                                                                                                       headList
+                                                                                                                                                                                       ))
+                                                                                                                                                                               , (unIData
+                                                                                                                                                                                    (force
+                                                                                                                                                                                       headList
+                                                                                                                                                                                       ))
+                                                                                                                                                                               , (unIData
+                                                                                                                                                                                    (force
+                                                                                                                                                                                       headList
+                                                                                                                                                                                       (force
+                                                                                                                                                                                          tailList
+                                                                                                                                                                                          ))) ])
+                                                                                                                                                                            (force
+                                                                                                                                                                               tailList
+                                                                                                                                                                               )))
+                                                                                                                                                                      (delay
+                                                                                                                                                                         error))))))
+                                                                                                                                                       (force
+                                                                                                                                                          (force
+                                                                                                                                                             sndPair)
+                                                                                                                                                          ))
+                                                                                                                                                    (force
+                                                                                                                                                       (force
+                                                                                                                                                          fstPair)
+                                                                                                                                                       ))
+                                                                                                                                                 (unConstrData
+                                                                                                                                                    ))
+                                                                                                                                            (force
+                                                                                                                                               headList
+                                                                                                                                               (force
+                                                                                                                                                  tailList
+                                                                                                                                                  ))) ]))
+                                                                                                                                 (delay
+                                                                                                                                    error)))
+                                                                                                                           (force
+                                                                                                                              (force
+                                                                                                                                 sndPair)
+                                                                                                                              ))
+                                                                                                                        (force
+                                                                                                                           (force
+                                                                                                                              fstPair)
+                                                                                                                           ))
+                                                                                                                     (unConstrData
+                                                                                                                        (force
+                                                                                                                           headList
+                                                                                                                           )))
+                                                                                                                , (
+                                                                                                                     unBData
+                                                                                                                     (force
+                                                                                                                        )
+                                                                                                                     (force
+                                                                                                                        headList
+                                                                                                                        ))
+                                                                                                                , ((\ ->
+                                                                                                                      (\ ->
+                                                                                                                         (\ ->
+                                                                                                                            force
+                                                                                                                              (force
+                                                                                                                                 ifThenElse
+                                                                                                                                 (equalsInteger
+                                                                                                                                    0
+                                                                                                                                    )
+                                                                                                                                 (delay
+                                                                                                                                    (constr 0
+                                                                                                                                       [  ]))
+                                                                                                                                 (delay
+                                                                                                                                    (force
+                                                                                                                                       (force
+                                                                                                                                          ifThenElse
+                                                                                                                                          (equalsInteger
+                                                                                                                                             1
+                                                                                                                                             )
+                                                                                                                                          (delay
+                                                                                                                                             (constr 2
+                                                                                                                                                [ (unBData
+                                                                                                                                                     (force
+                                                                                                                                                        headList
+                                                                                                                                                        )) ]))
+                                                                                                                                          (delay
+                                                                                                                                             (force
+                                                                                                                                                (force
+                                                                                                                                                   ifThenElse
+                                                                                                                                                   (equalsInteger
+                                                                                                                                                      2
+                                                                                                                                                      )
+                                                                                                                                                   (delay
+                                                                                                                                                      (constr 1
+                                                                                                                                                         [ (force
+                                                                                                                                                              headList
+                                                                                                                                                              ) ]))
+                                                                                                                                                   (delay
+                                                                                                                                                      error)))))))))
+                                                                                                                           (force
+                                                                                                                              (force
+                                                                                                                                 sndPair)
+                                                                                                                              ))
+                                                                                                                        (force
+                                                                                                                           (force
+                                                                                                                              fstPair)
+                                                                                                                           ))
+                                                                                                                     (unConstrData
+                                                                                                                        (force
+                                                                                                                           headList
+                                                                                                                           )))
+                                                                                                                , (
+                                                                                                                     unBData
+                                                                                                                     (force
+                                                                                                                        headList
+                                                                                                                        (force
+                                                                                                                           tailList
+                                                                                                                           ))) ])
+                                                                                                             (force
+                                                                                                                tailList
+                                                                                                                ))
+                                                                                                          (force
+                                                                                                             tailList
+                                                                                                             )))
+                                                                                                    (delay
+                                                                                                       error)))
+                                                                                              (force
+                                                                                                 (force
+                                                                                                    sndPair)
+                                                                                                 ))
+                                                                                           (force
+                                                                                              (force
+                                                                                                 fstPair)
+                                                                                              ))
+                                                                                        (unConstrData
+                                                                                           (force
+                                                                                              headList
+                                                                                              (force
+                                                                                                 tailList
+                                                                                                 )))) ]))
+                                                                             (delay
+                                                                                error)))
+                                                                       (force
+                                                                          (force
+                                                                             sndPair)
+                                                                          ))
+                                                                    (force
+                                                                       (force
+                                                                          fstPair)
+                                                                       ))
+                                                                 (unConstrData
+                                                                    ))
+                                                            (force headList )))
+                                                      (force (force sndPair)
+                                                         (unConstrData
+                                                            (force headList ))))
+                                                   (unBData
+                                                      (force headList
+                                                         (force (force sndPair)
+                                                            (unConstrData
+                                                               (force headList
+                                                                  (force
+                                                                     tailList
+                                                                     (force
+                                                                        tailList
+                                                                        ))))))))
+                                                [(delay ()), (delay error)]))
+                                          (force (force sndPair) ))
+                                       (unConstrData ))
+                                    (
+                                       (\   ->
+                                          force
+                                            (case
+
+                                               [ (delay )
+                                               , (\  ->
+                                                    delay
+                                                      (case
+
+                                                         [ (\  ->
+                                                               (   ) ) ])) ]))))
+                                 (
+                                    (\    ->
+                                       force
+                                         (case
+
+                                            [ (delay )
+                                            , (\  ->
+                                                 delay
+                                                   (case
+
+                                                      [ (\  ->
+                                                           force
+                                                             (force ifThenElse
+                                                                (equalsInteger
+                                                                   0
+                                                                   )
+                                                                (delay (   ))
+                                                                (delay
+                                                                   (
+
+                                                                      (constr 1
+                                                                         [ (constr 0
+                                                                              [ 
+                                                                              , 
+                                                                              ,  ])
+                                                                         ,  ])
+                                                                      )))) ])) ]))))
+                              (\ ->
+                                 (\ ->
+                                    (\ ->
+                                       (\ ->
+                                          force
+                                            (force ifThenElse
+                                               (equalsInteger 0 )
+                                               (delay
+                                                  (constr 0
+                                                     [ (unBData
+                                                          (force headList )) ]))
+                                               (delay
+                                                  (force
+                                                     (force ifThenElse
+                                                        (equalsInteger 1 )
+                                                        (delay
+                                                           (constr 1
+                                                              [ (unBData
+                                                                   (force
+                                                                      headList
+                                                                      )) ]))
+                                                        (delay error))))))
+                                         (force (force sndPair) ))
+                                      (force (force fstPair) ))
+                                   (unConstrData )))
+                           (\  ->
+                              (\ ->
+                                 (\ ->
+                                    (\ ->
+                                       force
+                                         (force ifThenElse
+                                            (equalsInteger 1 )
+                                            (delay (constr 1 []))
+                                            (delay
+                                               (force
+                                                  (force ifThenElse
+                                                     (equalsInteger 0 )
+                                                     (delay
+                                                        (constr 0
+                                                           [ (
+                                                                (force headList
+                                                                   )) ]))
+                                                     (delay error))))))
+                                      (force (force sndPair) ))
+                                   (force (force fstPair) ))
+                                (unConstrData )))
+                        (delay ( unBData unIData)))
+                     (\  ->
+                        (\  ->  (unMapData ))
+                          (
+                             (\  ->
+                                force (force chooseList)
+
+                                  (\ -> constr 0 [])
+                                  (\ ->
+                                     (\ ->
+                                        constr 1
+                                          [ (constr 0
+                                               [ ( (force (force fstPair) ))
+                                               , ( (force (force sndPair) )) ])
+                                          , ( (force tailList )) ])
+                                       (force headList ))
+                                  (constr 0 [])))))
+                  (\ ->
+                     (\  ->  (unListData ))
+                       (
+                          (\  ->
+                             force (force chooseList)
+
+                               (\ -> constr 0 [])
+                               (\ ->
+                                  constr 1
+                                    [ ( (force headList ))
+                                    , ( (force tailList )) ])
+                               (constr 0 [])))))
+               (\  ->
+                  force ifThenElse
+                    (equalsByteString  )
+                    (constr 0 [])
+                    (constr 1 [])))
+            (
+               (\  ->
+                  force (case  [(delay 0), (\  -> delay (addInteger 1 ( )))]))))
+         ( (\  -> force (case  [(delay 0), (\  -> delay (addInteger 1 ( )))]))))
+      (\ -> (\ ->  ) (\ ->  (\ ->   )))
+      (force
+         (delay
+            (\   ->
+               force (delay (\  -> ))
+                 (\   -> constr 0 [, , ])
+                 (\ -> delay (\ -> case  []))
+                 (force 
+                    #5ce5ab7dd9555d694d99e55206076e9ecc54a1e2e2cb68c441f1a644
+                    (force 
+                       #3ac70811f1a5d423996bd715b0106d0d63c6f5b8d4a54d47cdcb80bf
+                       (force 
+                          #8494ac43a34bfca8ed4d70d7f1bdeb2899df2bc5de4a94c8d6ccd8f7
+                          (force ))))
+                 #6bbc8463d884bc8280a6bf6517251dc67271df7b7bf89d7837cb2a96bcbd96c5
+                 1))
+         (delay (constr 0 []))
+         (delay (\  -> constr 1 [, ]))
+         (delay (\ -> delay (\  -> case  [, ]))))))

@@ -1,0 +1,188 @@
+Cabal-Version:          3.4
+Name:                   digitalis-contracts
+Version:                0.4.0
+Author:                 Adrian, MIxAxIM
+Maintainer:             digitalis.io
+Build-Type:             Simple
+-- License:                GPL-3.0-or-later
+-- License-file:           LICENSE
+
+flag defer-plugin-errors
+    description:
+        Defer errors from the plugin, useful for things like Haddock that can't handle it.
+    default: True
+    manual: False
+
+Common project-config
+    default-language:   Haskell2010
+    ghc-options:        -Wall
+                        -Wcompat
+                        -Wincomplete-record-updates
+                        -Wnoncanonical-monad-instances
+                        -Wredundant-constraints
+                        -Wincomplete-uni-patterns
+                        -Wunused-packages
+                        -Widentities
+                        -- -rtsopts
+                        -fno-ignore-interface-pragmas
+                        -fno-omit-interface-pragmas
+                        -fobject-code
+                        -fno-specialise
+                        -fno-spec-constr
+                        -fno-strictness
+    if flag(defer-plugin-errors)
+        ghc-options: -fplugin-opt PlutusTx.Plugin:defer-errors
+
+    default-extensions: NoImplicitPrelude
+                        OverloadedStrings
+                        ExplicitForAll
+                        ScopedTypeVariables
+                        DeriveGeneric
+                        StandaloneDeriving
+                        DeriveLift
+                        GeneralizedNewtypeDeriving
+                        DeriveFunctor
+                        DeriveFoldable
+                        DeriveTraversable
+                        LambdaCase
+                        MultiParamTypeClasses
+                        TypeOperators
+                        FlexibleInstances
+                        NamedFieldPuns
+                        TypeFamilies
+                        FlexibleContexts
+                        DeriveAnyClass
+                        DerivingStrategies
+                        DerivingVia
+                        DataKinds
+                        PatternGuards
+                        GADTs
+                        ImportQualifiedPost
+                        MultiWayIf
+                        RankNTypes
+                        RecordWildCards
+                        TemplateHaskell
+                        TypeApplications
+                        UndecidableInstances
+                        DuplicateRecordFields
+                        InstanceSigs
+                        ViewPatterns
+
+Library
+    import:             project-config
+    hs-source-dirs:     src
+    exposed-modules:
+
+                        -- Administration
+                        Administration.BMAT.Policy
+
+                        Administration.CAT.Types
+                        Administration.CAT.Policy
+
+                        Administration.ContractsController.Types
+                        Administration.ContractsController.Validator
+
+                        -- --DNS
+                        DNS.DNSReference.Types
+                        DNS.DNSReference.Validator
+                        DNS.DRAT.Types
+                        DNS.DRAT.Policy
+
+                        DNS.DNSMinter.Types
+                        DNS.DNSMinter.Policy
+
+                        --Marketplace
+                        Marketplace.MHABAT.Types
+                        Marketplace.MHABAT.Policy
+
+                        Marketplace.MintingDNSAuction.Types
+                        Marketplace.MintingDNSAuction.Validator
+
+                        Marketplace.EnglishAuction.Types
+                        Marketplace.EnglishAuction.Validator
+
+                        Marketplace.VABAT.Types
+                        Marketplace.VABAT.Policy
+
+                        Marketplace.VickreyAuction.Types
+                        Marketplace.VickreyAuction.Validator
+
+                        -- --Staking
+                        Staking.Types
+                        Staking.Validator
+
+                        --Treasury
+                        Treasury.MainTreasury.Types
+                        Treasury.MainTreasury.Validator
+
+                        --Utilitis
+                        Utils.Address
+                        Utils.ExBudget
+                        Utils.String
+                        Utils.ToJSON
+                        Utils.WriteValidator
+                        Utils.LazyScriptContext
+
+                        Orphans
+
+    build-depends:
+                            base
+                        ,   plutus-ledger-api
+                        ,   plutus-tx
+                        ,   aeson
+                        ,   aeson-pretty
+                        ,   cardano-api
+                        ,   cardano-api:internal
+                        ,   plutus-core
+                        ,   plutus-tx-plugin
+                        ,   text
+                        ,   serialise
+                        ,   bytestring
+                        ,   split
+                        ,   directory
+                        ,   filepath
+                        ,   cardano-crypto-class
+                        ,   cardano-ledger-core
+                        ,   mtl
+                        ,   containers
+                        ,   base16-bytestring
+                        ,   cborg
+
+
+executable write_validators
+  default-language: Haskell2010
+  main-is: write_validators.hs
+  hs-source-dirs:      app
+  ghc-options:         -threaded -rtsopts "-with-rtsopts=-T"
+  build-depends:        digitalis-contracts
+                      , base
+                      , plutus-ledger-api
+                      , filepath
+                      , directory
+                      , plutus-tx
+                      , split
+
+executable write_datums
+  default-language: Haskell2010
+  main-is: write_datums.hs
+  hs-source-dirs:      app
+  ghc-options:         -threaded -rtsopts "-with-rtsopts=-T"
+  build-depends:        digitalis-contracts
+                      , base
+                      , filepath
+                      , directory
+                      , plutus-tx
+                      , split
+                      , plutus-ledger-api
+
+executable write_redeemers
+  default-language: Haskell2010
+  main-is: write_redeemers.hs
+  hs-source-dirs:      app
+  ghc-options:         -threaded -rtsopts "-with-rtsopts=-T"
+  build-depends:        digitalis-contracts
+                      , base
+                      , filepath
+                      , directory
+                      , split
+                      , plutus-tx

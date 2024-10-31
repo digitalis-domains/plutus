@@ -1,0 +1,6 @@
+# dist/
+# dist
+dist-newstyle/
+dist-newstyle
+.vscode
+.editorconfig
